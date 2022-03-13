@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_param",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_HelloWorld",
+						"type": "string"
+					}
+				],
+				"name": "setApp",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "viewApp",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"App.sol": "App"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"App.sol": {
+			"keccak256": "0x4df83ad65228fc8a16aa94d3ea366f181e384f69d7b18f391adb8b195b16647d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://12a5390f28b44e4a83cb2d998e39b1bb7d326bcb107c0f11b8076a78d8905869",
+				"dweb:/ipfs/QmSnGgBuAYmy8kkyvZDW4HfYYRtfTJrV135npfAnb4368T"
+			]
+		}
+	},
+	"version": 1
+}
